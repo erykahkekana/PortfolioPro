@@ -1,0 +1,32 @@
+.navbar {
+    padding: 100px;
+}
+
+
+main {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right:100px;
+text-align: center;
+
+}
+.name-class{
+    font-size: larger;
+}
+.btn-custom{
+    background-color: black;
+    color: white;
+    border-radius:0;
+}
+
+.btn-custom:hover {
+    background-color:white;
+    color:black;
+}
+footer {
+    padding-top: 150px;
+}
+.copyright-footer{
+    padding-top: 150px;
+}
