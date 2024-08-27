@@ -30,10 +30,19 @@ h1{
 .card {
     display: flex;
     flex-direction: column;
-    height:100%;
+    margin-bottom:20px;
+    min-height:300px;
+    justify-content: space-between;
+    min-width:500px;
+    flex:1 0 30%;
+    margin: 10px;
 }
 .card-body{
+    display:flex;
+    flex-direction:clumn;
+    justify-content:space-between;
     flex-grow:1;
+    padding:15px;
 }
 
 
@@ -45,17 +54,20 @@ h1{
     width:100%;
     height: auto;
     object-fit:cover;
-    padding:10px;
-    box-sizing:border-box;
+
     border-radius: 15px;
 }
 .col-md-4, .col-sm-6, .c0l-xs-12{
     padding:15px;
+    display:flex;
+    justify-content: center;
 }
 
 .row {
     margin-right: -15px;
     margin-left: -15px;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 
@@ -74,9 +86,11 @@ img {
     max-width:100%;
     height:auto;
 }
-@media (max-width:768px){
+@media (max-width:576px){
     .card{
         margin-bottom:15px;
+        min-height:200px;
+        padding:10px;
     }
     .btn{
         font-size: 16px;
@@ -86,4 +100,15 @@ img {
     .fa {
         font-size:1.5rem;
     }
+}
+@media (max-width:768px){
+    .card{
+       min-width: 100%;
+       margin: 10px 0;
+    }
+}
+
+.container{
+    width:100%;
+    max-width:100%;
 }
