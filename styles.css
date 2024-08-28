@@ -134,3 +134,105 @@ img {
         font-size: 18px;
     }
 }
+
+/*Profile, about.html styling */
+/* Improved Profile, about.html styling */
+.btn-black {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 25px; /* Slightly larger padding for better touch experience */
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px; /* Added slight rounding for modern look */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.btn-black:hover {
+    background-color: #444; /* Darker shade on hover for better visual feedback */
+    color: white;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 15px;
+    box-sizing: border-box;
+    padding-top: 0;
+    margin-top: 0;
+    flex-wrap: wrap; /* Ensure it wraps properly on smaller screens */
+}
+
+.row {
+    width: 100%;
+}
+
+.about-card {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px; /* Slightly increased rounding for aesthetics */
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card depth */
+    box-sizing: border-box;
+    transition: transform 0.2s ease; /* Add animation for hover effect */
+}
+
+.about-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover for engagement */
+}
+
+.profile-image {
+    width: 100%;
+    max-width: 250px; /* Adjusted for better display */
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Smooth transition for hover */
+}
+
+.profile-image:hover {
+    transform: scale(1.05); /* Subtle zoom on hover */
+}
+
+.card-body {
+    padding: 1.5rem; /* Increased padding for better readability */
+}
+
+@media (max-width: 576px) {
+    .about-card {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .btn-black {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .profile-image {
+        max-width: 350px; 
+    }
+}
+
+.col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-navbar {
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+}
+
+.body {
+    padding-top: 0; 
+    margin-top: 0; 
+}
