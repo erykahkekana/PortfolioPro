@@ -1,4 +1,4 @@
-/* Base Styles */
+/* index Styles */
 .navbar {
     padding: 100px;
 }
@@ -35,25 +35,25 @@ h1 {
     min-height: 300px;
     justify-content: space-between;
     flex: 1 0 30%;
-    border: 1px solid #ddd; /* Optional: border for visibility */
+    border: 1px solid #ddd; 
     border-radius: 15px;
-    overflow: hidden; /* Prevent overflow */
+    overflow: hidden; 
 }
 
 .card-body {
     display: flex;
-    flex-direction: column; /* Stack content vertically */
-    justify-content: space-between; /* Space out content */
+    flex-direction: column; 
+    justify-content: space-between; 
     flex-grow: 1;
     padding: 15px;
 }
 
 .card-title, .card-text, .btn {
-    margin-bottom: 10px; /* Add spacing between elements */
+    margin-bottom: 10px; 
 }
 
 .card-body .btn {
-    margin-top: auto; /* Push button to the bottom */
+    margin-top: auto; 
 }
 
 .card-img-top {
@@ -77,11 +77,11 @@ h1 {
 }
 
 footer {
-    padding-top: 50px; /* Adjust footer padding */
+    padding-top: 50px; 
 }
 
 .copyright-footer {
-    padding-top: 20px; /* Adjust padding */
+    padding-top: 20px; 
 }
 
 img {
@@ -89,7 +89,6 @@ img {
     height: auto;
 }
 
-/* Media Queries */
 @media (max-width: 576px) {
     .navbar {
         padding: 20px;
@@ -137,7 +136,7 @@ img {
 }
 
 /*Profile, about.html styling */
-/* Improved Profile, about.html styling */
+
 .btn-black {
     background-color: black;
     color: white;
@@ -145,12 +144,12 @@ img {
     padding: 12px 25px; /* Slightly larger padding for better touch experience */
     text-decoration: none;
     display: inline-block;
-    border-radius: 5px; /* Added slight rounding for modern look */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
 }
 
 .btn-black:hover {
-    background-color: #444; /* Darker shade on hover for better visual feedback */
+    background-color: #444; 
     color: white;
 }
 
@@ -163,8 +162,7 @@ img {
     box-sizing: border-box;
     padding-top: 0;
     margin-top: 0;
-    flex-wrap: wrap; /* Ensure it wraps properly on smaller screens */
-}
+    flex-wrap: wrap; 
 
 .row {
     width: 100%;
@@ -173,32 +171,32 @@ img {
 .about-card {
     padding: 20px;
     background: #fff;
-    border-radius: 8px; /* Slightly increased rounding for aesthetics */
+    border-radius: 8px; 
     max-width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-    transition: transform 0.2s ease; /* Add animation for hover effect */
+    transition: transform 0.2s ease; 
 }
 
 .about-card:hover {
-    transform: translateY(-5px); /* Slight lift on hover for engagement */
+    transform: translateY(-5px); 
 }
 
 .profile-image {
     width: 100%;
-    max-width: 250px; /* Adjusted for better display */
+    max-width: 250px;
     height: auto;
-    border-radius: 50%; /* Make the image circular */
+    border-radius: 50%; 
     object-fit: cover;
-    transition: transform 0.3s ease; /* Smooth transition for hover */
+    transition: transform 0.3s ease; 
 }
 
 .profile-image:hover {
-    transform: scale(1.05); /* Subtle zoom on hover */
+    transform: scale(1.05); 
 }
 
 .card-body {
-    padding: 1.5rem; /* Increased padding for better readability */
+    padding: 1.5rem; 
 }
 
 @media (max-width: 576px) {
@@ -236,4 +234,5 @@ img {
 .body {
     padding-top: 0; 
     margin-top: 0; 
+}
 }
