@@ -4,6 +4,7 @@ html {
 }
 .navbar {
     padding: 100px;
+    background: linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);
 }
 
 main {
@@ -18,6 +19,8 @@ h1 {
 .name-class {
     font-size: larger;
     text-align: center;
+    padding-top: 25px;
+    margin-top:25px;
 }
 
 .btn-custom {
@@ -81,6 +84,8 @@ h1 {
 
 footer {
     padding-top: 50px; 
+    background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+}
 }
 
 .copyright-footer {
@@ -237,8 +242,16 @@ img {
 .body {
     padding-top: 0; 
     margin-top: 0; 
+    background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
 }
+/*.....work.html projects styling ...*/
+.work-header{
+    padding-top: 30px;
 }
+
+
+
+
 /*...contact.html styling....*/
 .contact-header{
     padding-top: 25px;
@@ -250,3 +263,38 @@ img {
 .inner {
     text-align: center;
 }
+.contact-header {
+    text-align: center; 
+  }
+  
+  .contact-info,
+  .download-resume {
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  
+  .contact-item{
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a,
+  .download-resume a {
+    margin-right: 10px; 
+  }
+  .col-md-6{
+    padding-top: 35px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column; 
+    .col-md-6 {
+      width: 100%; 
+
+    }
+  }
